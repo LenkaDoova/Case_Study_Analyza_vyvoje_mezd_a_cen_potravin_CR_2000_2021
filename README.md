@@ -58,7 +58,7 @@ Výstupem projektu jsou dvě finální tabulky obsahující agregovaná data o m
 ## Pořadí náhledů výsledků v databázi:
 
 - 1) Output Task1
-- 2) Output Task2 A
+- 2) Output Task2 A,
      Output Task2 B
 - 3) Output Task3
 - 4) Output Task4
@@ -115,9 +115,9 @@ Tato tabulka byla inner joinem připojena k tabulkám *t_wages* a *t_prices_norm
 ## ÚKOL 2) Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 
 ### Shrnutí výsledků
-* Průměrná cena mléka v r. 2006 byla 14,44 Kč, chléb stál 16,12 Kč. Zaměstnanci nejlépe placeného sektoru (Peněžnictví a pojišťovnictví) si v tomto roce mohli zakoupit 2749 l mléka a 2461,6 kg chleba. Zaměstnanci nejhůře placeného sektoru (Ubytování, stravování a pohostinství) si v tomto roce mohli zakoupit 788,9 l mléka a 706,4 kg chleba.  
+- Průměrná cena mléka v r. 2006 byla 14,44 Kč, chléb stál 16,12 Kč. Zaměstnanci nejlépe placeného sektoru (Peněžnictví a pojišťovnictví) si v tomto roce mohli zakoupit 2749 l mléka a 2461,6 kg chleba. Zaměstnanci nejhůře placeného sektoru (Ubytování, stravování a pohostinství) si v tomto roce mohli zakoupit 788,9 l mléka a 706,4 kg chleba.  
 
-Průměrná cena mléka v r. 2018 činila 19,82 Kč, chléb stál 24,24 Kč. Zaměstnanci nejlépe placeného sektoru (Informační a komunikační činnosti) si v tomto roce mohli zakoupit 2830,9 l mléka a 2314,6 kg chleba. Zaměstnanci nejhůře placeného sektoru (opět Ubytování, stravování a pohostinství) si v tomto roce mohli zakoupit 947,1 l mléka a 774,4 kg chleba. 
+- Průměrná cena mléka v r. 2018 činila 19,82 Kč, chléb stál 24,24 Kč. Zaměstnanci nejlépe placeného sektoru (Informační a komunikační činnosti) si v tomto roce mohli zakoupit 2830,9 l mléka a 2314,6 kg chleba. Zaměstnanci nejhůře placeného sektoru (opět Ubytování, stravování a pohostinství) si v tomto roce mohli zakoupit 947,1 l mléka a 774,4 kg chleba. 
 
 ## ÚKOL 3) Která kategorie potravin zdražuje nejpomaleji (je u ní nejnižší percentuální meziroční nárůst)?
 
