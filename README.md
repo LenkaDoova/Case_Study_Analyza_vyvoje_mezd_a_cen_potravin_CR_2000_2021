@@ -75,7 +75,7 @@ Výstupem projektu jsou dvě finální tabulky obsahující agregovaná data o m
 
 * Průměrné ceny sledovaných potravin:
 
-Spojení tabulek *czechia_price* a *czechia_price_category* inner joinem pro propojení kódů s konkrétními názvy jednotlivých potravin. Zde bylo třeba získat průměrnou cenu každé potraviny za rok bez ohledu na jejich granularitu (cena potravin byla sledována v jednotlivých regionech ČR v odlišných časových úsecích, zpravidla několika týdenních). Tabulka s cenami byla též normalizována tak, aby došlo ke sjednocení cen kategorií přibližně za 1 kg a 1 l (viz např. cena 1 vejce velikosti M-L byla standardizována na 0,06 kg). Ceny kategorií byly sledovány většinou za období 2006-2018, s výjimkou jakostního vína (2015-2018). Tabulka nazvána *t_prices_norm*. 
+Spojení tabulek *czechia_price* a *czechia_price_category* inner joinem pro propojení kódů s konkrétními názvy jednotlivých potravin. Zde bylo třeba získat průměrnou cenu každé potraviny za rok bez ohledu na jejich granularitu (cena potravin byla sledována v jednotlivých regionech ČR v odlišných časových úsecích, zpravidla několika týdenních). Tabulka s cenami byla též normalizována tak, aby došlo ke sjednocení cen kategorií přibližně za 1 kg a 1 l (vč. vajec, kde váha 1 vejce velikosti M-L byla standardizována na 0,06 kg). Ceny kategorií byly sledovány většinou za období 2006-2018, s výjimkou jakostního vína (2015-2018). Tabulka nazvána *t_prices_norm*. 
 
 * Průměrné mzdy v jednotlivých obdobích:
 
