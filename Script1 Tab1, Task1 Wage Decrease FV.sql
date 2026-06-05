@@ -11,7 +11,7 @@ SELECT
         WHEN price_unit = 'kg' THEN cp.value / cpc.price_value
         WHEN price_unit = 'ml' THEN cp.value / cpc.price_value * 1000
         WHEN price_unit = 'l' THEN cp.value / cpc.price_value -- pivo 0.5l, víno 0.75l
-        WHEN price_unit = 'ks' THEN cp.value / cpc.price_value * 0.06 -- avg váha 1 vejce (M-L) = cca 60g 
+        WHEN price_unit = 'ks' THEN cp.value / cpc.price_value * 1000 / 60 -- 1 vejce při standardní váze (velikost M-L) cca = 60 g; tj. cena za 1 kg vajec = 16,666 ks x jednotková cena
     END AS price_per_unit
 FROM czechia_price cp
 JOIN czechia_price_category cpc ON cp.category_code = cpc.code
